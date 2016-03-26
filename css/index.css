@@ -1,3 +1,13 @@
+/*! headers */
+h2{
+  margin: 0 auto;
+  padding-top: 48px;
+  text-align: center;
+  font: normal 0.876em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  letter-spacing: 1px;
+}
+
 /*! header */
 
 .welcome-page {
@@ -128,6 +138,82 @@
   line-height: 1.8;
   letter-spacing: 0.5px;
   text-shadow: 1.5px 2.598px 6px rgba(0, 0, 0, 0.6);
+}
+
+/*! back */
+.back-box {
+  position: relative;
+  margin: 48px auto;
+  width: 90%;
+  height: 23px;
+}
+
+.back {
+  display: block;
+  position: relative;
+  float: left;
+  height: 23px;
+  background: url('../images/back_icon.png');
+  background-repeat: no-repeat;
+  background-size: 12px 23px;
+  background-position: left top;
+  padding-left: 40px;
+  font: normal 1em/1.38 HoeflerText-Regular;
+  color: rgb(150, 128, 90);
+  letter-spacing: 1px;
+  padding-top: 2px;
+}
+
+/*! wellcome text*/
+
+.wellcome {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: auto;
+  margin: 36px auto;
+}
+
+.wellcome-title {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  font: normal 0.876em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  letter-spacing: 1px;
+}
+
+.wellcome-text {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  font: normal 0.7em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+.card-slider {
+  margin-top: 46px;
+  position: relative;
+  width: 100%;
+  background-color: #000;
+}
+
+.pagination {
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  width: 120px;
+  height: 20px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+a.control-button {
+  padding: 10px;
+  font: normal 2.6em/1.38 HoeflerText-Regular;
+  color: rgba(255, 255, 255, 0.4);
 }
 
 /*! footer-info */
