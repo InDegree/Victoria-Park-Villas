@@ -1,5 +1,17 @@
 /*! headers */
-h2{
+h1 {
+  color: #fff;
+}
+h2 {
+  margin: 0 auto;
+  padding-top: 48px;
+  text-align: center;
+  font: normal 0.876em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  letter-spacing: 1px;
+}
+
+h3 {
   margin: 0 auto;
   padding-top: 48px;
   text-align: center;
@@ -210,10 +222,15 @@ h2{
   right: 0;
 }
 
-a.control-button {
-  padding: 10px;
-  font: normal 2.6em/1.38 HoeflerText-Regular;
-  color: rgba(255, 255, 255, 0.4);
+.small-slide {
+  margin-left: 92px;
+  margin-right: 92px;
+  margin-bottom: 92px;
+  margin-top: 48px;
+}
+
+.discripted {
+  border: 1px solid rgba(150, 128, 90, 0.2);
 }
 
 /*! footer-info */
