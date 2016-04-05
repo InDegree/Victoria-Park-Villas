@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Slider</title>
+  <link rel="stylesheet" href="css/slider.css">
+  <!-- <link rel="stylesheet" href="css/gallery.prefixed.css"> -->
+
+  <!-- Include swiper css -->
+  <link rel="stylesheet" href="css/swiper.css">
+
+</head>
+<body>
+
+  <!-- Include swiper js -->
+  <script src="js/swiper.js"></script>
+
+  <!-- Add swiper layout -->
+  <div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+    <!-- Slides -->
+      <div class="swiper-slide"><img src="http://placehold.it/1826x802"/></div>
+      <div class="swiper-slide"><img src="http://placehold.it/1826x802"/></div>
+      <div class="swiper-slide"><img src="http://placehold.it/1826x802"/></div>
+    </div>
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+<!-- Inicialize swiper-->
+<!-- autoplayDisableOnInteraction: true, disabled autoplay after user interactions (swipes) -->
+<script>
+var swiper = new Swiper('.swiper-container', {
+    effect: 'slide',
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    autoplay: 3000
+});
+</script>
+
+</body>
+</html>

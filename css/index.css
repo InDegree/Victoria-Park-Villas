@@ -223,16 +223,16 @@ h3 {
 }
 
 .small-slide {
-  margin-left: 92px;
-  margin-right: 92px;
-  margin-bottom: 92px;
-  margin-top: 48px;
+  margin-top: 46px;
+  padding-left: 92px;
+  padding-right: 92px;
+  padding-bottom: 92px;
+  padding-top: 48px;
 }
 
 .discripted {
   border: 1px solid rgba(150, 128, 90, 0.2);
 }
-
 /*! footer-info */
 
 .footer-info {
