@@ -5,40 +5,59 @@
   <meta name="viewport" content="initial-scale=1.0">
   <title>Slider</title>
   <link rel="stylesheet" href="css/slider.css">
-  <!-- <link rel="stylesheet" href="css/gallery.prefixed.css"> -->
-
-  <!-- Include swiper css -->
   <link rel="stylesheet" href="css/swiper.css">
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script src="js/swiper.js"></script>
+  <script src="js/index.js"></script>
+  <!-- <script src="js/popup.js"></script> -->
 </head>
 <body>
 
-  <!-- Include swiper js -->
-  <script src="js/swiper.js"></script>
-
-  <!-- Add swiper layout -->
-  <div class="swiper-container">
-    <!-- Additional required wrapper -->
-    <div class="swiper-wrapper">
-    <!-- Slides -->
-      <div class="swiper-slide"><img src="http://placehold.it/1826x802"/></div>
-      <div class="swiper-slide"><img src="http://placehold.it/1826x802"/></div>
-      <div class="swiper-slide"><img src="http://placehold.it/1826x802"/></div>
+  <div class="popupWrapper">
+    <div class="sliderPopup">
+      <div class="close">X</div>
     </div>
-    <!-- Pagination -->
+  </div>
+
+
+
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a href="#"><img src="http://placehold.it/1826x802"/></a></div>
+      <div class="swiper-slide"><a href="#"><img src="http://placehold.it/1826x802"/></a></div>
+      <div class="swiper-slide"><a href="#"><img src="http://placehold.it/1826x802"/></a></div>
+    </div>
     <div class="swiper-pagination"></div>
   </div>
 
-<!-- Inicialize swiper-->
-<!-- autoplayDisableOnInteraction: true, disabled autoplay after user interactions (swipes) -->
-<script>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><a href="#"><img src="http://placehold.it/1826x802"/></a></div>
+      <div class="swiper-slide"><a href="#"><img src="http://placehold.it/1826x802"/></a></div>
+      <div class="swiper-slide"><a href="#"><img src="http://placehold.it/1826x802"/></a></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script>
 var swiper = new Swiper('.swiper-container', {
     effect: 'slide',
     pagination: '.swiper-pagination',
     paginationClickable: true,
     autoplay: 3000
 });
-</script>
+</script> -->
 
 </body>
 </html>
