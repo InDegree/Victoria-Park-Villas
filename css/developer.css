@@ -1,0 +1,369 @@
+/*! headers */
+h1 {
+  color: #fff;
+}
+h2 {
+  margin: 0 auto;
+  padding-top: 48px;
+  text-align: center;
+  font: normal 0.876em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  letter-spacing: 1px;
+}
+
+h3 {
+  margin: 0 auto;
+  padding-top: 48px;
+  text-align: center;
+  font: normal 0.876em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  letter-spacing: 1px;
+}
+
+/*! header */
+
+.welcome-page {
+  height: 100%;
+  background: url('../images/page_bg.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
+}
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/navigatin_bar_separator.png');
+  background-repeat: no-repeat;
+  background-size: 1px 62px;
+  background-position: right center;
+  width: 25%;
+  height: 78px;
+  font: normal 0.688em/1.38 HoeflerText-Regular;
+  color: rgb(150, 128, 90);
+  letter-spacing: 1px;
+}
+.content-box {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.cover-box {
+  height: 120px;
+  background: url('../images/cover_bg.png') rgb(222, 222, 222);
+  background-repeat: repeat-x;
+  background-size: 1px 240px;
+  background-position: left top;
+}
+
+.logo {
+  display: inline;
+  float: left;
+  width: 120px;
+  height: 120px;
+  background: url('../images/cover_logo.png') rgb(23, 18, 17);
+  background-repeat: no-repeat;
+  background-size: 120px 120px;
+  background-position: left top;
+}
+
+.cover {
+  position: static;
+  margin: 0 auto;
+  width: 252px;
+  height: 120px;
+  background: url('../images/developer_title.png') #161312;
+  background-repeat: no-repeat;
+  background-size: 252px 120px;
+  background-position: left top;
+}
+
+/*! about-project */
+
+.about-project {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 600px;
+  margin: 36px auto;
+}
+
+.about-title {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  font: normal 0.9em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  letter-spacing: 2.5px;
+}
+
+.about-text {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  font: normal 0.8em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  line-height: 1.8;
+  letter-spacing: 1.5px;
+}
+
+/*! cards */
+
+.cards {
+  margin: 48px auto;
+  width: 90%;
+}
+
+.card-video {
+  width: 90%;
+  height: 43%;
+  background-color: #000;
+  margin: auto;
+}
+
+.card {
+  margin-top: 46px;
+  position: relative;
+  width: 100%;
+}
+
+.card img{
+  width: 100%;
+}
+
+.card-text-box {
+  padding-top: 8px;
+  position: relative;
+  text-align: center;
+  display: flex;
+
+}
+
+.clear-top-padding {
+  padding-top: 0px;
+}
+
+.card-title {
+  padding-top: 20px;
+  text-align: center;
+  font: normal 1.125em/1.38 HoeflerText-Regular;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+  text-shadow: 1.5px 2.598px 6px rgba(0, 0, 0, 0.6);
+}
+
+.card-text {
+  padding-top: 8px;
+  text-align: center;
+  font: normal 0.7em/1.38 HoeflerText-Regular;
+  color: rgb(255, 255, 255);
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  text-shadow: 1.5px 2.598px 6px rgba(0, 0, 0, 0.6);
+}
+
+/*! back */
+.back-box {
+  position: relative;
+  margin: 48px auto;
+  width: 90%;
+  height: 23px;
+}
+
+.back {
+  display: block;
+  position: relative;
+  float: left;
+  height: 23px;
+  background: url('../images/back_icon.png');
+  background-repeat: no-repeat;
+  background-size: 12px 23px;
+  background-position: left top;
+  padding-left: 40px;
+  font: normal 1em/1.38 HoeflerText-Regular;
+  color: rgb(150, 128, 90);
+  letter-spacing: 1px;
+  padding-top: 2px;
+}
+
+/*! wellcome text*/
+
+.wellcome {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: auto;
+  margin: 36px auto;
+}
+
+.wellcome-title {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  font: normal 0.876em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  letter-spacing: 1px;
+}
+
+.wellcome-text {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  font: normal 0.7em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+.card-slider {
+  margin-top: 46px;
+  position: relative;
+  width: 100%;
+  background-color: #000;
+}
+
+.pagination {
+  display: block;
+  position: absolute;
+  bottom: 40px;
+  width: 120px;
+  height: 20px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.small-slide {
+  margin-top: 46px;
+  padding-left: 92px;
+  padding-right: 92px;
+  padding-bottom: 92px;
+  padding-top: 48px;
+}
+
+.discripted {
+  border: 1px solid rgba(150, 128, 90, 0.2);
+}
+/*! footer-info */
+
+.footer-info {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 600px;
+  margin: 36px auto;
+}
+
+.footer-title {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  font: normal 0.876em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  letter-spacing: 1px;
+}
+
+.footer-text {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: left;
+  font: normal 0.7em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+.footer-autor {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  font: normal 0.7em/1.38 HoeflerText-Italic;
+  color: rgb(211, 211, 211);
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+.footer-by {
+  margin: 0 auto;
+  padding-top: 40px;
+  text-align: center;
+  font: normal 0.7em/1.38 HoeflerText-Italic;
+  color: rgb(211, 211, 211);
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+.by-logo {
+  margin: 20px auto;
+  width: 142px;
+  height: 61px;
+  background: url('../images/capitaland_logo.png');
+  background-repeat: no-repeat;
+  background-size: 142px 61px;
+  background-position: left top;
+}
+
+.page-fix {
+  height: 150px;
+}
+
+/*! navigation_bar */
+
+.navigation_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 78px;
+  background: url('../images/navigatin_bar_bg.png') rgb(222, 222, 222);
+  background-repeat: repeat-x;
+  background-size: 1px 78px;
+  background-position: left top;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/navigatin_bar_separator.png');
+  background-repeat: no-repeat;
+  background-size: 1px 62px;
+  background-position: right center;
+  width: 25%;
+  height: 78px;
+  font: normal 0.688em/1.38 HoeflerText-Regular;
+  color: rgb(150, 128, 90);
+  letter-spacing: 1px;
+}
+
+.clear-separator{
+  background-image: none;
+}
+.testimonials{
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  font: normal 0.9em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  line-height: 15pt;
+  letter-spacing: 1.5px;
+
+}
+.testimonials-text{
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 220px;
+  padding-right: 220px;
+  text-align: left;
+  font: normal 0.8em/1.38 HoeflerText-Regular;
+  color: rgb(211, 211, 211);
+  line-height: 18pt;
+  letter-spacing: 0.5pt;
+}
+.separator{
+  border-bottom:1px solid #857052;
+  padding-top: 50px;
+
+}
